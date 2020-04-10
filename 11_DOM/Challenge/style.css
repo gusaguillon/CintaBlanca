@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#fondo{
+    background-image: url(https://image.shutterstock.com/z/stock-photo-slices-of-pizza-with-prosciutto-and-spices-on-black-background-copy-space-top-view-1166416783.jpg);
+}
+
+#textNav{
+    font-size: 50px;
+}
+
+.customCard{
+    display : none;
+}
+
+.noPizza{
+    display: none;
+}
+
+.imgPizza{
+    width: 280px;
+}

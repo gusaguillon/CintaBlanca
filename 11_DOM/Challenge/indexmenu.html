@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Locales CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Iconos CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Fuente CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+
+    <title>Tu Pizza !YA¡</title>
+  </head>
+  <body id="fondo">
+        <!-- BARRA NAVEGACION TITUTLO -->
+        <nav class="navbar navbar-dark bg-dark mt-5">
+            <span id="textNav" class="navbar-brand mb-0 mx-auto h1">Tu Pizza ¡YA!</span>
+        </nav>
+
+        <!-- INGRESO DE DATOS -->
+        <div class="container-lg mt-5">
+          <div class="row justify-content-center">
+            <div class="col-5" >
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Nombre</span>
+                </div>
+                <input id="nombre" type="text" class="form-control" placeholder="Tu nombre aquí" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+             <div class="input-group-prepend">
+               <span class="input-group-text" id="basic-addon1">Teléfono</span>
+             </div>
+             <input id="telefono" type="text" class="form-control" placeholder="Tu teléfono aquí" aria-label="Username" aria-describedby="basic-addon1">
+           </div>
+
+           <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">¿Piña?</label>
+            </div>
+            <select class="custom-select text-muted" id="inputGroupSelect01">
+              <option selected>Seleciona si te gusta la piña</option>
+              <option value="1">Sí</option>
+              <option value="2">No</option>
+            </select>
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">Dirección</span>
+            </div>
+            <input id="direccion" type="text" class="form-control" placeholder="Tu dirección aquí" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+
+        
+          <div class="row">
+            <div class="col">
+                <button id="pizza" type="submit" class="btn btn-outline-success float-right">
+                  <i class="material-icons">local_pizza</i>   
+                Pedir Pizza
+
+                </button>
+                
+              </div>
+        </div>    
+
+            </div>
+          </div>
+            
+
+        <!-- Tarjeta de pedido -->
+        <div class="row justify-content-center mt-5">
+          <div id="card" class="card customCard" style="width: 18rem;">
+            <img id="pizzaH" class="noPizza imgPizza" src="https://image.shutterstock.com/image-photo/pizza-hawaiian-cardboard-box-on-600w-1082122130.jpg" alt="Pizza Hawaiana">
+            <img id="pizzaP" class="noPizza imgPizza" src="https://image.shutterstock.com/image-photo/hot-pepperoni-pizza-on-black-600w-1114907846.jpg"  alt="Pizza Peperoni">
+            <div class="card-body">
+              <p id="datoNombre" class="card-text"></p>
+              <p id="datoTelefono" class="card-text"></p>
+              <p id="datoDireccion" class="card-text"></p>
+              <p id="datoPizza" class="card-text"></p>
+            </div>
+          </div>
+        </div>
+
+
+        </div>
+    <!-- Script otros -->
+    <script src="mainmenu.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
